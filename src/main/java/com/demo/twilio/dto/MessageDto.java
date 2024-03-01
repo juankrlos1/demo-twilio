@@ -12,7 +12,7 @@ import java.util.List;
 public class MessageDto {
 
     @Schema(description = "List of recipient phone numbers in E.164 format.",
-            example = "[\"++50371360734\", \"+10987654321\"]")
+            example = "[\"+50371360734\", \"+10987654321\"]")
     private List<String> to;
 
     @Schema(description = "Content of the message to be sent.",
